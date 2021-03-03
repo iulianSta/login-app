@@ -27,8 +27,7 @@ form fieldset div button {
   display: block;
   width: 12rem;
   height: 3rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem;
 }
 form fieldset div button:first-child {
   background-color: rgb(4, 171, 248);
@@ -38,4 +37,17 @@ form fieldset div button:nth-child(2) {
 }
 form fieldset div button:last-child {
   background-color: rgb(62, 210, 247);
+}
+button i {
+  font-size: large;
+  color: white;
+}
+.middle-line {
+  border: gray 1px solid;
+  width: 0;
+  height: 11rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  position: relative;
+  top: 1rem;
 }
