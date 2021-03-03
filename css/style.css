@@ -1,15 +1,31 @@
 /* Fonts import link */
 /* font-family: 'Akaya Telivigala', cursive; */
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
-/* All elements style */
+/* All elements styling */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-/* Body style */
+/* Body styling */
 body {
-  width: 80vw;
-  height: 80vh;
+  width: 100vw;
+  height: 100vh;
   font-family: "Akaya Telivigala", cursive, sans-serif;
+}
+/* Form styling */
+form {
+  margin: 20% auto;
+  width: 50%;
+  height: 50%;
+}
+form fieldset div {
+  display: inline-block;
+}
+/* Left buttons styling */
+form fieldset div button {
+  display: block;
+  width: 12rem;
+  height: 3rem;
+  margin-bottom: 1rem;
 }
