@@ -27,5 +27,15 @@ form fieldset div button {
   display: block;
   width: 12rem;
   height: 3rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
+}
+form fieldset div button:first-child {
+  background-color: rgb(4, 171, 248);
+}
+form fieldset div button:nth-child(2) {
+  background-color: orangered;
+}
+form fieldset div button:last-child {
+  background-color: rgb(62, 210, 247);
 }
