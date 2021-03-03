@@ -1,0 +1,15 @@
+/* Fonts import link */
+/* font-family: 'Akaya Telivigala', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+/* All elements style */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Body style */
+body {
+  width: 80vw;
+  height: 80vh;
+  font-family: "Akaya Telivigala", cursive, sans-serif;
+}
