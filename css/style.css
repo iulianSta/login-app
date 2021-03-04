@@ -25,44 +25,88 @@ form fieldset div {
 /* Left buttons styling */
 form fieldset div button {
   display: block;
-  width: 12rem;
-  height: 3rem;
-  margin: 1rem;
+  width: 20vw;
+  height: 10vh;
+  margin: 3rem;
+  border-radius: 1rem;
 }
+/* First button individual styling */
 form fieldset div button:first-child {
   background-color: rgb(4, 171, 248);
 }
+/* Seccond button individual styling */
 form fieldset div button:nth-child(2) {
   background-color: orangered;
 }
+/* Third button individual styling */
 form fieldset div button:last-child {
   background-color: rgb(62, 210, 247);
 }
+/* Buttons content styling */
 button i {
-  font-size: large;
+  font-size: 2rem;
   color: white;
 }
+/* Middle line styling */
 .middle-line {
   border: silver 1px solid;
   width: 0;
-  height: 11rem;
+  height: 40vh;
   margin-left: 1rem;
   margin-right: 1rem;
   position: relative;
-  top: 1rem;
+  top: 4vh;
+  opacity: 0.8;
   z-index: -1;
 }
+/* Circle styling */
 .circle {
   background-color: white;
   border: silver 1px solid;
   border-radius: 50%;
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   position: relative;
-  bottom: 4rem;
-  right: 2.4rem;
+  bottom: 9.5rem;
+  right: 2.9rem;
   font-weight: bold;
   text-align: center;
-  padding-top: 5px;
+  font-size: larger;
+  padding-top: 0.8rem;
   color: silver;
+}
+#sign-in,
+input,
+.checkbox,
+legend + div i {
+  display: block;
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: slategray;
+  margin-bottom: 1.5rem;
+}
+#sign-in {
+  font-size: 2.5rem;
+  text-align: center;
+  color: slategray;
+}
+.checkbox input,
+#submit-button {
+  display: inline-block;
+  font-size: 1.8rem;
+}
+
+#submit-button {
+  width: 9rem;
+  height: 3rem;
+  position: relative;
+  bottom: 3.6rem;
+  left: 12rem;
+  background-color: lightskyblue;
+  color: white;
+}
+.click-buttons {
+  width: 100%;
+  height: 20%;
 }
