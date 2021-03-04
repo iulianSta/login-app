@@ -16,8 +16,8 @@ body {
 /* Form styling */
 form {
   margin: 10% auto;
-  width: 50%;
-  height: 50%;
+  width: 54%;
+  height: 54%;
 }
 form fieldset div {
   display: inline-block;
@@ -92,6 +92,16 @@ legend + div i {
   color: slategray;
   margin-top: 3rem;
 }
+.user {
+  border: white;
+  border-bottom: silver 1px solid;
+  margin-right: auto;
+  padding-left: 3rem;
+}
+legend + div i {
+  bottom: -3.5vh;
+  z-index: 1;
+}
 .checkbox input {
   display: inline-block;
   font-size: 1rem;
@@ -102,7 +112,7 @@ legend + div i {
   width: 7vw;
   height: 5vh;
   position: relative;
-  bottom: 7vh;
+  bottom: 6.5vh;
   left: 11vw;
   background-color: lightskyblue;
   color: white;
