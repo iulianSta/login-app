@@ -136,6 +136,7 @@ legend + div i {
   font-size: 2rem;
   color: silver;
   background-color: lightcyan;
+  margin-top: -3px;
 }
 /* Down side buttons */
 .click-buttons button {
