@@ -33,14 +33,17 @@ form fieldset div button {
 /* First button individual styling */
 form fieldset div button:first-child {
   background-color: rgb(4, 171, 248);
+  cursor: pointer;
 }
 /* Seccond button individual styling */
 form fieldset div button:nth-child(2) {
   background-color: orangered;
+  cursor: pointer;
 }
 /* Third button individual styling */
 form fieldset div button:last-child {
   background-color: rgb(62, 210, 247);
+  cursor: pointer;
 }
 /* Buttons content styling */
 button i {
@@ -75,6 +78,7 @@ button i {
   padding-top: 0.8rem;
   color: silver;
 }
+/* Right side elements */
 #sign-in,
 input,
 .checkbox,
@@ -86,28 +90,32 @@ legend + div i {
   color: slategray;
   margin-bottom: 1.5vh;
 }
+/* Legend text */
 #sign-in {
   font-size: 2.5rem;
   text-align: center;
   color: slategray;
   margin-top: 3rem;
 }
+/* Right side input area */
 .user {
   border: white;
   border-bottom: silver 1px solid;
   margin-right: auto;
   padding-left: 3rem;
 }
+/* User and user-lock logos */
 legend + div i {
-  bottom: -3.5vh;
+  bottom: -4vh;
   z-index: 1;
 }
+/* Checkbox and label */
 .checkbox input {
   display: inline-block;
   font-size: 1rem;
   margin-top: 3rem;
 }
-
+/* Submit button */
 #submit-button {
   width: 7vw;
   height: 5vh;
@@ -117,21 +125,26 @@ legend + div i {
   background-color: lightskyblue;
   color: white;
   border-radius: 5px;
+  cursor: pointer;
 }
+/* Down side area */
 .click-buttons {
   width: 100%;
-  height: 20%;
-  padding-top: 2vh;
-  padding-left: 15.5vw;
+  height: 7vh;
+  padding-top: 1vh;
+  padding-left: 17.5vw;
   font-size: 2rem;
   color: silver;
+  background-color: lightcyan;
 }
+/* Down side buttons */
 .click-buttons button {
-  width: 10vw;
-  height: 4vh;
+  width: 8vw;
+  height: 5vh;
   font-family: "Akaya Telivigala", cursive, sans-serif;
   font-size: 1.5rem;
   color: rgb(4, 171, 248);
-  background-color: white;
-  border: white;
+  background-color: lightcyan;
+  border: lightcyan;
+  cursor: pointer;
 }
