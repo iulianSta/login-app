@@ -33,16 +33,19 @@ form fieldset div button {
 /* First button individual styling */
 form fieldset div button:first-child {
   background-color: rgb(4, 171, 248);
+  border: rgb(4, 171, 248);
   cursor: pointer;
 }
 /* Seccond button individual styling */
 form fieldset div button:nth-child(2) {
   background-color: orangered;
+  border: orangered;
   cursor: pointer;
 }
 /* Third button individual styling */
 form fieldset div button:last-child {
   background-color: rgb(62, 210, 247);
+  border: rgb(62, 210, 247);
   cursor: pointer;
 }
 /* Buttons content styling */
@@ -96,6 +99,7 @@ legend + div i {
   text-align: center;
   color: slategray;
   margin-top: 3rem;
+  margin-right: 2rem;
 }
 /* Right side input area */
 .user {
@@ -124,6 +128,7 @@ legend + div i {
   left: 13vw;
   background-color: lightskyblue;
   color: white;
+  border: lightskyblue;
   border-radius: 5px;
   cursor: pointer;
 }
