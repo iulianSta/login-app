@@ -8,15 +8,26 @@
   padding: 0;
 }
 /* Root styling */
+/* Default font size */
+/* Declaring variables */
 :root {
   font-size: 16px;
+  --font-family:  "Akaya Telivigala", cursive, sans-serif;
+  --color-blue: rgb(4, 171, 248);
+  --color-blue-marine: rgb(62, 210, 247);
+  --color-orange: orangered;
+  --color-skyblue: lightskyblue;
+  --color-white: white;
+  --color-silver: silver;
+  --color-gray: slategray;
+  --color-cyan: lightcyan;
 }
 /* Body styling */
 body {
   width: 54vw;
   height: 54vh;
   margin: 10% auto;
-  font-family: "Akaya Telivigala", cursive, sans-serif;
+  font-family: var(--font-family);
 }
 /* Form styling */
 form {
@@ -35,7 +46,7 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
-  -ms-flex-direction: row;
+  flex-direction: row;
 }
 /* Left section */
 .left-section {
@@ -69,30 +80,30 @@ form {
 }
 /* First button individual styling */
 .left-section button:first-child {
-  background-color: rgb(4, 171, 248);
-  border: rgb(4, 171, 248);
+  background-color: var(--color-blue);
+  border: var(--color-blue);
   cursor: pointer;
 }
 /* Seccond button individual styling */
 .left-section button:nth-child(2) {
-  background-color: orangered;
-  border: orangered;
+  background-color: var(--color-orange);
+  border: var(--color-orange);
   cursor: pointer;
 }
 /* Third button individual styling */
 .left-section button:last-child {
-  background-color: rgb(62, 210, 247);
-  border: rgb(62, 210, 247);
+  background-color: var(--color-blue-marine);
+  border: var(--color-blue-marine);
   cursor: pointer;
 }
 /* Buttons content styling */
 button i {
   font-size: 2rem;
-  color: white;
+  color: var(--color-white);
 }
 /* Middle line styling */
 .middle-line {
-  border: silver 1px solid;
+  border: var(--color-silver) 1px solid;
   width: 0;
   height: 25rem;
   margin: 5rem 2rem 2rem 2rem;
@@ -101,8 +112,8 @@ button i {
 }
 /* Circle styling */
 .circle {
-  background-color: white;
-  border: silver 1px solid;
+  background-color: var(--color-white);
+  border: var(--color-silver) 1px solid;
   border-radius: 50%;
   width: 3rem;
   height: 3rem;
@@ -113,7 +124,7 @@ button i {
   text-align: center;
   font-size: larger;
   padding-top: 0.8rem;
-  color: silver;
+  color: var(--color-silver);
 }
 /* Right side elements */
 #sign-in,
@@ -125,19 +136,19 @@ legend + div i {
   align-items: center;
   font-size: 1.5rem;
   font-weight: bold;
-  color: slategray;
+  color: var(--color-gray);
   margin: 0 2rem 1.5rem 2rem;
 }
 /* Legend text */
 #sign-in {
   font-size: 2.5rem;
   text-align: center;
-  color: slategray;
+  color: var(--color-gray);
 }
 /* Right side input area */
 .user {
-  border: white;
-  border-bottom: silver 1px solid;
+  border: var(--color-white);
+  border-bottom: var(--color-silver) 1px solid;
   margin-right: auto;
   padding-left: 3rem;
 }
@@ -150,7 +161,7 @@ legend + div i {
 /* Checkbox*/
 .checkbox input {
   position: relative;
-  right: 7rem;
+  right: 6rem;
   margin-top: 4rem;
 }
 /* Label */
@@ -167,9 +178,9 @@ legend + div i {
   position: relative;
   bottom: 5rem;
   left: 15rem;
-  background-color: lightskyblue;
-  color: white;
-  border: lightskyblue;
+  background-color: var(--color-skyblue);
+  color: var(--color-white);
+  border: var(--color-skyblue);
   border-radius: 5px;
   cursor: pointer;
 }
@@ -180,18 +191,18 @@ legend + div i {
   padding-top: 1vh;
   padding-left: 19vw;
   font-size: 2rem;
-  color: silver;
-  background-color: lightcyan;
+  color: var(--color-silver);
+  background-color: var(--color-cyan);
   margin-top: -3px;
 }
 /* Down side buttons */
 .click-buttons button {
   width: 8vw;
   height: 5vh;
-  font-family: "Akaya Telivigala", cursive, sans-serif;
+  font-family: var(--font-family);
   font-size: 1.5rem;
-  color: rgb(4, 171, 248);
-  background-color: lightcyan;
-  border: lightcyan;
+  color: var(--color-blue);
+  background-color: var(--color-cyan);
+  border: var(--color-cyan);
   cursor: pointer;
 }
