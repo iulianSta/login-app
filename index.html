@@ -1,132 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-16">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-16" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Page title -->
     <title>Login App</title>
     <!-- Fontawesome link -->
-    <link rel="stylesheet" href="./fontawesome-free-5.15.2-web/css/all.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.2-web/css/all.css" />
     <!-- CSS link -->
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <!-- Form -->
     <form action="index.js" method="GET">
-        <!-- First fieldset -->
-        <fieldset>
-            <div>
-             <!-- First button -->
-             <button>
-                 <!-- Facebook link -->
-                <a 
-                 href="http://www.facebook.com" 
-                 target="_blank" 
-                 rel="noopener noreferrer"
-                >
-                <!-- Facebook logo -->
-                <i class="fab fa-facebook-f"> 
-                    &nbsp;&#124;&nbsp; Facebook login
-                </i>
-                </a>
-             </button>
-             <!-- Seccond button -->
-             <button>
-                 <!-- Google link -->
-                <a 
-                 href="http://www.google.com" 
-                 target="_blank" 
-                 rel="noopener noreferrer"
-                >
-                <!-- Google logo -->
-                <i class="fab fa-google"> 
-                    &nbsp;&#124;&nbsp; Google login
-                </i>
-                </a>
-             </button>
-             <!-- Third button -->
-             <button>
-                 <!-- Twitter link -->
-                <a 
-                 href="http://www.twitter.com" 
-                 target="_blank" 
-                 rel="noopener noreferrer"
-                >
-                <!-- Twitter logo -->
-                <i class="fab fa-twitter"> 
-                    &nbsp;&#124;&nbsp; Twitter login
-                </i>
-                </a>
-             </button>
-            </div>
-            <!-- Middle vertical line -->
-            <div class="middle-line"></div>
-            <!-- Middle circle with text -->
-            <div class="circle">
-                <!-- Legend -->
-                <legend>OR</legend>
-            </div>
-            <div>
-                <!-- Legend -->
-                <legend id="sign-in">
-                    Sign in with
-                </legend>
-                <div>
-                    <!-- User logo -->
-                    <i class="far fa-user"></i>
-                    <!-- User input area -->
-                <input 
-                type="text" 
-                name="userName" 
-                type="email"
-                placeholder="Username or email" 
-                id="1" 
-                class="user"
-                >
-                <!-- Password logo -->
-                <i class="fas fa-user-lock"></i>
-                <!-- Password input area -->
-                <input 
-                type="password" 
-                name="password" 
-                placeholder="Password" 
-                id="2" 
-                class="user"
-                >
-                </div>
-                <div class="checkbox">
-                    <!-- Checkbox -->
-                <input 
-                type="checkbox" 
-                name="checkbox" 
-                id="3"
-                >
-                <!-- Checkbox label -->
-                <label for="checkbox">
-                    Remember me
-                </label>
-                </div>
-                <!-- Submit input area -->
-                <input 
-                id="submit-button"
-                type="submit" 
-                value="LOGIN"
-                >
-            </div>
-        </fieldset>
-        <!-- Seccond fieldset -->
-        <fieldset class="click-buttons">
-            <!-- Register now button -->
-            <button>
-                Register now
-            </button>
-            &#124;
-            <!-- Forgotten button -->
-            <button>
-                Forgotten?
-            </button>
-        </fieldset>
+      <!-- First fieldset -->
+      <fieldset class="top-area">
+        <div>
+          <!-- First button -->
+          <button>
+            <!-- Facebook link -->
+            <a
+              href="http://www.facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <!-- Facebook logo -->
+              <i class="fab fa-facebook-f">
+                &nbsp;&#124;&nbsp; Facebook login
+              </i>
+            </a>
+          </button>
+          <!-- Seccond button -->
+          <button>
+            <!-- Google link -->
+            <a
+              href="http://www.google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <!-- Google logo -->
+              <i class="fab fa-google"> &nbsp;&#124;&nbsp; Google login </i>
+            </a>
+          </button>
+          <!-- Third button -->
+          <button>
+            <!-- Twitter link -->
+            <a
+              href="http://www.twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <!-- Twitter logo -->
+              <i class="fab fa-twitter"> &nbsp;&#124;&nbsp; Twitter login </i>
+            </a>
+          </button>
+        </div>
+        <!-- Middle vertical line -->
+        <div class="middle-line"></div>
+        <!-- Middle circle with text -->
+        <div class="circle">
+          <!-- Legend -->
+          <legend>OR</legend>
+        </div>
+        <div>
+          <!-- Legend -->
+          <legend id="sign-in">Sign in with</legend>
+          <div>
+            <!-- User logo -->
+            <i class="far fa-user"></i>
+            <!-- User input area -->
+            <input
+              type="text"
+              name="userName"
+              type="email"
+              placeholder="Username or email"
+              id="1"
+              class="user"
+            />
+            <!-- Password logo -->
+            <i class="fas fa-user-lock"></i>
+            <!-- Password input area -->
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+              id="2"
+              class="user"
+            />
+          </div>
+          <div class="checkbox">
+            <!-- Checkbox -->
+            <input type="checkbox" name="checkbox" id="3" />
+            <!-- Checkbox label -->
+            <label for="checkbox"> Remember me </label>
+          </div>
+          <!-- Submit input area -->
+          <input id="submit-button" type="submit" value="LOGIN" />
+        </div>
+      </fieldset>
+      <!-- Seccond fieldset -->
+      <fieldset class="click-buttons bottom-area">
+        <!-- Register now button -->
+        <button>Register now</button>
+        &#124;
+        <!-- Forgotten button -->
+        <button>Forgotten?</button>
+      </fieldset>
     </form>
-</body>
+  </body>
 </html>
