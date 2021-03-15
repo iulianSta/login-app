@@ -126,7 +126,7 @@ legend + div i {
   font-size: 1.5rem;
   font-weight: bold;
   color: slategray;
-  margin-bottom: 1.5rem;
+  margin: 0 2rem 1.5rem 2rem;
 }
 /* Legend text */
 #sign-in {
@@ -147,12 +147,18 @@ legend + div i {
   bottom: -3rem;
   z-index: 1;
 }
-/* Checkbox and label */
+/* Checkbox*/
 .checkbox input {
   position: relative;
+  right: 7rem;
+  margin-top: 4rem;
+}
+/* Label */
+.checkbox label {
+  position: relative;
   right: 6rem;
-  font-size: 1rem;
-  margin-top: 3rem;
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
 }
 /* Submit button */
 #submit-button {
@@ -172,7 +178,7 @@ legend + div i {
   width: 100%;
   height: 7vh;
   padding-top: 1vh;
-  padding-left: 17.5vw;
+  padding-left: 19vw;
   font-size: 2rem;
   color: silver;
   background-color: lightcyan;
