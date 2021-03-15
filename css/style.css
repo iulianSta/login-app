@@ -15,7 +15,7 @@
 body {
   width: 54vw;
   height: 54vh;
-  margin: 10px auto;
+  margin: 10% auto;
   font-family: "Akaya Telivigala", cursive, sans-serif;
 }
 /* Form styling */
@@ -32,10 +32,9 @@ form {
 /* Top area styling */
 .top-area {
   grid-area: top-area;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: 
-  "left-section center-section right-section";
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* Left section */
 .left-section {
@@ -54,11 +53,10 @@ form {
   grid-area: bottom-area;
 }
 /* Left buttons styling */
-form fieldset div button {
-  /* display: grid; */
+form fieldset div button { 
   width: 20vw;
   height: 10vh;
-  margin: 3rem;
+  /* margin: 3rem; */
   border-radius: 1rem;
 }
 /* First button individual styling */
@@ -101,15 +99,15 @@ button i {
   background-color: white;
   border: silver 1px solid;
   border-radius: 50%;
-  /* width: 3rem;
+  width: 3rem;
   height: 3rem;
-  position: relative;
+  /* position: relative;
   bottom: 9.5rem;
   right: 2.9rem; */
   font-weight: bold;
   text-align: center;
   font-size: larger;
-  padding-top: 0.8rem;
+  /* padding-top: 0.8rem; */
   color: silver;
 }
 /* Right side elements */
@@ -122,41 +120,41 @@ legend + div i {
   font-size: 1.5rem;
   font-weight: bold;
   color: slategray;
-  margin-bottom: 1.5vh;
+  /* margin-bottom: 1.5vh; */
 }
 /* Legend text */
 #sign-in {
   font-size: 2.5rem;
   text-align: center;
   color: slategray;
-  margin-top: 3rem;
-  margin-right: 2rem;
+  /* margin-top: 3rem;
+  margin-right: 2rem; */
 }
 /* Right side input area */
 .user {
   border: white;
   border-bottom: silver 1px solid;
-  margin-right: auto;
-  padding-left: 3rem;
+  /* margin-right: auto;
+  padding-left: 3rem; */
 }
 /* User and user-lock logos */
 legend + div i {
-  bottom: -4vh;
+  /* bottom: -4vh; */
   z-index: 1;
 }
 /* Checkbox and label */
 .checkbox input {
   /* display: inline-block; */
   font-size: 1rem;
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
 }
 /* Submit button */
 #submit-button {
   width: 7vw;
   height: 5vh;
-  /* position: relative; */
+  /* position: relative;
   bottom: 6.5vh;
-  left: 13vw;
+  left: 13vw; */
   background-color: lightskyblue;
   color: white;
   border: lightskyblue;
