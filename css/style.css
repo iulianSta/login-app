@@ -35,10 +35,15 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
+  -ms-flex-direction: row;
 }
 /* Left section */
 .left-section {
   grid-area: left-section;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 /* Center section */
 .center-section {
@@ -53,26 +58,29 @@ form {
   grid-area: bottom-area;
 }
 /* Left buttons styling */
-form fieldset div button { 
+.left-section button { 
   width: 20vw;
   height: 10vh;
-  /* margin: 3rem; */
+  margin: 1rem;
   border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* First button individual styling */
-form fieldset div button:first-child {
+.left-section button:first-child {
   background-color: rgb(4, 171, 248);
   border: rgb(4, 171, 248);
   cursor: pointer;
 }
 /* Seccond button individual styling */
-form fieldset div button:nth-child(2) {
+.left-section button:nth-child(2) {
   background-color: orangered;
   border: orangered;
   cursor: pointer;
 }
 /* Third button individual styling */
-form fieldset div button:last-child {
+.left-section button:last-child {
   background-color: rgb(62, 210, 247);
   border: rgb(62, 210, 247);
   cursor: pointer;
@@ -87,10 +95,8 @@ button i {
   border: silver 1px solid;
   width: 0;
   height: 40vh;
-  /* margin-left: 1rem;
-  margin-right: 1rem;
-  position: relative;
-  top: 4vh; */
+  margin: 5rem 2rem 2rem 2rem;
+  
   opacity: 0.8;
   z-index: -1;
 }
@@ -101,13 +107,12 @@ button i {
   border-radius: 50%;
   width: 3rem;
   height: 3rem;
-  /* position: relative;
   bottom: 9.5rem;
-  right: 2.9rem; */
+  right: 2.9rem;
   font-weight: bold;
   text-align: center;
   font-size: larger;
-  /* padding-top: 0.8rem; */
+  padding-top: 0.8rem;
   color: silver;
 }
 /* Right side elements */
@@ -115,46 +120,46 @@ button i {
 input,
 .checkbox,
 legend + div i {
-  /* display: block;
-  position: relative; */
+  display: block;
+  position: relative;
   font-size: 1.5rem;
   font-weight: bold;
   color: slategray;
-  /* margin-bottom: 1.5vh; */
+  margin-bottom: 1.5vh;
 }
 /* Legend text */
 #sign-in {
   font-size: 2.5rem;
   text-align: center;
   color: slategray;
-  /* margin-top: 3rem;
-  margin-right: 2rem; */
+  margin-top: 3rem;
+  margin-right: 2rem;
 }
 /* Right side input area */
 .user {
   border: white;
   border-bottom: silver 1px solid;
-  /* margin-right: auto;
-  padding-left: 3rem; */
+  margin-right: auto;
+  padding-left: 3rem;
 }
 /* User and user-lock logos */
 legend + div i {
-  /* bottom: -4vh; */
+  bottom: -4vh;
   z-index: 1;
 }
 /* Checkbox and label */
 .checkbox input {
-  /* display: inline-block; */
+  display: inline-block;
   font-size: 1rem;
-  /* margin-top: 3rem; */
+  margin-top: 3rem;
 }
 /* Submit button */
 #submit-button {
   width: 7vw;
   height: 5vh;
-  /* position: relative;
+  position: relative;
   bottom: 6.5vh;
-  left: 13vw; */
+  left: 13vw;
   background-color: lightskyblue;
   color: white;
   border: lightskyblue;
